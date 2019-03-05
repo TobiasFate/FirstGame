@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1551543257 source:e:\duy_manh\code\advancedprograming\firstgame\main.cpp
+1551757983 source:e:\duy_manh\code\advancedprograming\firstgame\main.cpp
 	<bits/stdc++.h>
 	"instruction.h"
 	"ScreenSize.h"
@@ -9,6 +9,7 @@
 	"Menu.h"
 	"GameLoading.h"
 	"highscore.h"
+	"option.h"
 
 1540998544 e:\duy_manh\code\advancedprograming\sdlmingw32bit\include\sdl2\sdl.h
 	"SDL_main.h"
@@ -372,7 +373,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1551546472 source:e:\duy_manh\code\advancedprograming\firstgame\instruction.cpp
+1551694233 source:e:\duy_manh\code\advancedprograming\firstgame\instruction.cpp
 	"instruction.h"
 
 1551428765 e:\duy_manh\code\advancedprograming\firstgame\instruction.h
@@ -419,7 +420,7 @@
 	<SDL_ttf.h>
 	<SDL_mixer.h>
 
-1551546105 source:e:\duy_manh\code\advancedprograming\firstgame\credit.cpp
+1551546657 source:e:\duy_manh\code\advancedprograming\firstgame\credit.cpp
 	"Credit.h"
 
 1551426347 e:\duy_manh\code\advancedprograming\firstgame\credit.h
@@ -445,7 +446,7 @@
 1551546580 source:e:\duy_manh\code\advancedprograming\firstgame\menu.cpp
 	"menu.h"
 
-1551425748 e:\duy_manh\code\advancedprograming\firstgame\box.h
+1551753268 e:\duy_manh\code\advancedprograming\firstgame\box.h
 
 1551425876 source:e:\duy_manh\code\advancedprograming\firstgame\box.cpp
 	"Box.h"
@@ -473,6 +474,19 @@
 	"ScreenSize.h"
 	"loadTexture.h"
 
-1551545903 source:e:\duy_manh\code\advancedprograming\firstgame\highscore.cpp
+1551690736 source:e:\duy_manh\code\advancedprograming\firstgame\highscore.cpp
 	"highscore.h"
+
+1551755923 e:\duy_manh\code\advancedprograming\firstgame\option.h
+	<bits/stdc++.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Box.h"
+	"ScreenSize.h"
+	"loadTexture.h"
+
+1551757807 source:e:\duy_manh\code\advancedprograming\firstgame\option.cpp
+	"option.h"
 

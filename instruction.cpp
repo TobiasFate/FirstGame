@@ -55,6 +55,9 @@ void Instruction(int &state, SDL_Renderer* gRenderer) {
             if (e.type == SDL_MOUSEMOTION || e.type == SDL_MOUSEBUTTONDOWN) {
 
                 SDL_GetMouseState(&x, &y) ;
+
+                std::cout << x << " " << y << std::endl ;
+
                 if (InsideBox(x, y, BackBox)) {
                     if (!Back) Back = true, changeBack = true ;
                 }

@@ -107,8 +107,6 @@ void HighScore(int &state, SDL_Renderer* gRenderer) {
                 if (InsideBox(x, y, BackBox)) NextState = 1 ;
                 else NextState = 0 ;
 
-                std::cout << x << " " << y << std::endl ;
-
                 if (curState != NextState) {
                     SDL_RenderClear(gRenderer) ;
                     curState = NextState ;

@@ -8,11 +8,14 @@
 #include "Menu.h"
 #include "GameLoading.h"
 #include "highscore.h"
+#include "option.h"
 
 SDL_Window* gWindow = NULL ; /// initialization window
 SDL_Renderer* gRenderer = NULL ; /// initialization renderer
 
-int state = 4 ; /// game status
+int state = 2 ; /// game state
+
+int sound = 1 ; /// game sound state
 
 int main(int argc, char* argv[]) {
 
@@ -28,7 +31,7 @@ int main(int argc, char* argv[]) {
                     break ;
                 }
                 case 2:{
-                    //Option(state, gRenderer) ;
+                    Option(state, sound, gRenderer) ;
                     break ;
                 }
                 case 3:{
